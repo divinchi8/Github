@@ -4,7 +4,7 @@ body{
 .container{
     background-color: black;
     /* display: flex; */
-    height: 852px;
+    height: 910px;
     border-radius: 5px;
     width: 393px;
     margin: 0 auto;
@@ -13,6 +13,7 @@ body{
     /* justify-content: center;    */
     flex-direction: column; 
     gap: 10px;
+    padding-right: 0;
 
 }
 .status-bar{
@@ -49,7 +50,7 @@ body{
 
 }
 .button button{
-    width: 75px;
+    width: 85px;
     height: 36px;
     background-color: black;
     color: white;
@@ -57,4 +58,74 @@ body{
     border-color: #ffffff;
     border: 0.2px solid ;
     opacity: 60%;
+    /* padding: 10px; */
+}
+.image-container{
+    width: 382px;
+    height: 530px;
+    position: relative;
+}
+.image-container img{
+    width: 380px;
+    height: 530px;
+}
+.text-overlay{
+    position: absolute;
+    top: 91%;
+    left: 15%;
+
+}
+
+.text-overlay button{
+    width: 130px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+.black-button{
+    background-color: #212121;
+    color: white;
+    font-size: 20px;
+}
+.mobile-games{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: bold;
+}
+.List{
+    font-size: 15px;
+    font-weight: 100;
+}
+.games-images{
+    display: flex;
+    flex-direction: row;
+    height: 110px;
+    justify-content: space-evenly;
+    
+}
+.games-images img{
+    width: 100px;
+    height: 100px;
+}
+.overlay-div{
+    position: absolute;
+    background-color: #212121;
+    height: 60px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 45px;
+    /* padding: 0; */
+    
+    
+}
+.overlay-div img{
+    height: 50px;
+    width: 40px;
 }
