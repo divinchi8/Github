@@ -3,7 +3,6 @@ body{
 }
 .container{
     background-color: black;
-    /* display: flex; */
     height: 910px;
     border-radius: 5px;
     width: 393px;
@@ -73,6 +72,8 @@ body{
     position: absolute;
     top: 91%;
     left: 15%;
+    display: flex;
+    gap: 10px;
 
 }
 
@@ -128,4 +129,9 @@ body{
 .overlay-div img{
     height: 50px;
     width: 40px;
+}
+.home{
+    display: flex;
+    margin-top: 140px;
+    width: 100%;
 }

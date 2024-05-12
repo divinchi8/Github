@@ -1,0 +1,102 @@
+body{
+    background-color: #D06969;
+}
+.container{
+    background-color: black;
+    height: 910px;
+    border-radius: 5px;
+    width: 393px;
+    margin: 0 auto;
+    /* padding: 10px; */
+    display: flex;
+    /* justify-content: center;    */
+    flex-direction: column; 
+    position: relative;
+    
+
+}
+.ChatFlix{
+    display: inline-block;
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+.introduction{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family:  "Inter", sans-serif;
+    font-weight: bold;
+    margin-top: 10px;
+    gap: 10px;
+}
+.introduction span{
+    color: #E50913;
+}
+.text{
+    display: flex;
+    color: #AAA7A7;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 70px;
+    height: 76px;
+    text-wrap: wrap;
+    align-items: center;
+    width: 346px;
+    margin-left: 15px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    
+}
+.image{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 280px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 50px; */
+    
+
+}
+.button button{
+    width: 213px;
+    height: 40px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.overlay-div{
+    background-color: #212121;
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0;
+    
+
+
+    
+    
+}
+.overlay-div img{
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.home{
+    position: relative;
+    display: flex;
+    margin-top: 140px;
+    width: 100%;
+}
