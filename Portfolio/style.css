@@ -42,3 +42,29 @@
     justify-content: space-around;
     margin-bottom: 100px;
 }
+.image-container img{
+    justify-content: center;
+    align-items: center;
+}
+#position{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#position h2{
+    font-size: bold;
+}
+#position img{
+    width: 124px;
+    height: 124px;
+    display: flex;
+   align-self: center;
+   margin-bottom: 40px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 310px;
+}
+
