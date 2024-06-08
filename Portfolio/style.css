@@ -67,4 +67,12 @@
     align-items: center;
     width: 310px;
 }
+.images-div{
+    text-align: center;
+    font-family: "Epilogue", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
 
